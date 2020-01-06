@@ -1,0 +1,109 @@
+.s_button {
+  @apply text-white;
+  @apply font-bold;
+  @apply cursor-pointer;
+  @apply outline-none;
+  @apply rounded;
+}
+
+.s_button:focus, .s_button:active {
+  @apply shadow-outline;
+}
+
+.s_button:disabled {
+  @apply opacity-50;
+  @apply cursor-not-allowed;
+}
+
+.round {
+  @apply rounded-full;
+}
+
+.primary {
+  @apply border-none;
+  @apply bg-teal-500;
+}
+
+.primary:hover {
+  @apply bg-teal-700;
+}
+
+.primary-outline {
+  @apply bg-transparent;
+  @apply text-teal-500;
+  @apply border-2;
+  @apply border-teal-500;
+}
+
+.primary-outline:hover {
+  @apply bg-teal-500;
+  @apply text-white;
+  @apply border-transparent;
+}
+
+.secondary {
+  @apply border-none;
+  @apply bg-blue-500;
+}
+
+.secondary:hover {
+  @apply bg-blue-700;
+}
+
+.light {
+  @apply border-none;
+  @apply bg-teal-300;
+  @apply text-black;
+}
+
+.light:hover {
+  @apply bg-teal-500;
+}
+
+.danger {
+  @apply border-none;
+  @apply bg-red-600;
+}
+
+.danger:hover {
+  @apply bg-red-800;
+}
+
+.warn {
+  @apply border-none;
+  @apply bg-yellow-600;
+}
+
+.warn:hover {
+  @apply bg-yellow-800;
+}
+
+.xs {
+  @apply text-xs;
+  @apply py-1;
+  @apply px-2;
+}
+
+.sm {
+  @apply text-sm;
+  @apply py-2;
+  @apply px-3;
+}
+
+.md {
+  @apply text-base;
+  @apply py-2;
+  @apply px-4;
+}
+
+.lg {
+  @apply text-lg;
+  @apply py-3;
+  @apply px-5;
+}
+
+.xl {
+  @apply text-xl;
+  @apply py-5;
+  @apply px-8;
+}
